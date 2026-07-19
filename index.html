@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="progress-bar">
+    <div id="progress"></div>
+</div>
+    <audio id="birthdayMusic" loop>
+    <source src="music/happybirthday.mp3" type="audio/mpeg">
+</audio>
+    <div class="container">
+    <h1>🎉 Happy Birthday! 🎉</h1>
+
+    <p>
+        Today is all about celebrating you.
+        I made this little surprise especially for you. ❤️
+    </p>
+
+    <img src="images/photo.jpeg" alt="Birthday Photo" class="birthday-photo">
+    
+    <button onclick="memoryGallery()">📸 View Our Memories</button>
+   <p id="surprise" style="display: none;">
+    🎂 Wishing you a day filled with happiness, laughter, and love! ❤️
+</p> 
+    </div>
+<div class="hearts">
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💓</span>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
